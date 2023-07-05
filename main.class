@@ -1,0 +1,50 @@
+// NAMA : 1. DITA SEKAR AYU ATMADI - 227064516149
+//      : 2. TASYA AURELIA - 227064516144
+//TUGAS KELOMPOK SEBELUM UAS
+
+//untuk mengelompokkan kelas2 yg memiliki fungsi dan tujuan yg serupa
+package mainn;
+public class Mainn {
+
+  
+    public static void main(String[] args) {
+        //penggunkaan sintaks untuk objek dari kelas 'karyawan' dalam bahasa pemrograman java
+       Karyawan universitas1 =   new Karyawan();
+       universitas1.NIP = "K00";
+       universitas1.Nama = "Jeno";
+       universitas1.Jenis_Kelamin = "Laki - Laki";
+       universitas1.Jumlah_Hari = 29;
+       universitas1.karyawan();
+       universitas1.AbsenKerja();
+       universitas1.Hitung_Gaji();
+     //untuk mencetak atau menampilkan output
+     System.out.println(" ");
+     
+        //penggunkaan sintaks untuk objek dari kelas 'dosen' dalam bahasa pemrograman java
+        Dosen universitas2 = new Dosen();
+        universitas2.NIP = "D03";
+        universitas2.Nama = "Dita";
+        universitas2.Jenis_Kelamin = "Perempuan";
+        universitas2.Jumlah_Hari = 30;
+        universitas2.Golongan = "1A";
+        universitas2.Jumlah_SKS = 4;
+        universitas2.Upah_per_SKS = 70000;
+        universitas2.karyawan();
+        universitas2.AbsenKerja();
+        universitas2.Hitung_Gaji();
+     //untuk mencetak atau menampilkan output   
+     System.out.println(" ");
+     
+        //penggunkaan sintaks untuk objek dari kelas 'staff' dalam bahasa pemrograman java
+        Staff universitas3 = new Staff();
+        universitas3.NIP = "S04";
+        universitas3.Nama = "Tasya";
+        universitas3.Jenis_Kelamin = "Perempuan";
+        universitas3.Jumlah_Hari = 31;
+        universitas3.karyawan();
+        universitas3.AbsenKerja();
+        universitas3.Hitung_Gaji();
+     //untuk mencetak atau menampilkan output   
+     System.out.println(" ");
+    }     
+    }
